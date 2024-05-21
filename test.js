@@ -1,4 +1,10 @@
 if (1 === 1) {
   console.log("true");
 } else console.log("false");
-console.log("demo");
+if (1) {
+  console.log("one", "two", "three");
+}
+function addSum() {
+  console.log(1 + 2);
+}
+console.log(addSum());
