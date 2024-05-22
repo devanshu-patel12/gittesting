@@ -8,3 +8,4 @@ function addSum() {
   console.log(1 + 2);
 }
 console.log(addSum());
+//lkwehrkhew
