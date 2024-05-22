@@ -2,5 +2,9 @@ if (1 === 1) {
   console.log("true");
 } else console.log("false");
 if (1) {
-  console.log("one");
+  console.log("one", "two", "three");
 }
+function addSum() {
+  console.log(1 + 2);
+}
+console.log(addSum());
