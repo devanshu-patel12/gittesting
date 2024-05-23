@@ -1,2 +1,2 @@
-var a = "f";
+var a = "conflicting line";
 console.log(a);
