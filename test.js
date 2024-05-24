@@ -1,4 +1,4 @@
-if (1 === 1) {
+if (1 === 3) {
   console.log("true");
 } else console.log("false");
 if (1) {
