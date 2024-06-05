@@ -10,7 +10,7 @@ function Card({ name, age, productName, productPrice }: CardPropsType) {
     return (
         <>
             <div className="card">
-                <h2>Name : {name}</h2>
+                <h5>Name : {name}</h5>
                 <h3>Age : {age}</h3>
                 <h2>Product Chosen: {productName}</h2>
                 <h3>It's Price: {productPrice}</h3>
