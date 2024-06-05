@@ -1,5 +1,6 @@
-import { useCallback, useMemo } from 'react'
-import './App.css'
+import { useCallback, useMemo } from "react";
+import SanchitComponent from "./components/sanchit-component.tsx";
+import "./App.css";
 
 function App() {
   const name: string = useMemo((): string => 'Vishesh', []);
@@ -9,12 +10,11 @@ function App() {
   const b = "New Line"
   console.log(b);
 
-  const name :() => string = useMemo(()=> name , [])
   return (
     <>
-      Hello World
+      <SanchitComponent />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
