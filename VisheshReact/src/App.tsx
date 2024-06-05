@@ -9,7 +9,7 @@ function App() {
   const b = "New Line"
   console.log(b);
 
-
+  const name :() => string = useMemo(()=> name , [])
   return (
     <>
       Hello World
