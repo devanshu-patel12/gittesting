@@ -1,0 +1,14 @@
+.card{
+    border: 1px solid black;  
+    border-radius: 5px;
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+h1,h2,h3{
+    margin: 0;
+}
