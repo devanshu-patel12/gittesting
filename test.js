@@ -1,5 +1,5 @@
 if (1 === 1) {
-  console.log("true");
+  console.log("mayank");
 } else console.log("false");
 if (1) {
   console.log("oneeeww");
