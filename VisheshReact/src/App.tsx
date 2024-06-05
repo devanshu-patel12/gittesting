@@ -3,8 +3,8 @@ import './App.css'
 
 function App() {
   const name: string = useMemo((): string => 'Vishesh', []);
-  const value: () => string = useCallback(() => name, []);
-  console.log(value);
+  const getName: () => string = useCallback(() => name, []);
+  console.log(getName, getName());
   return (
     <>
       Hello World
