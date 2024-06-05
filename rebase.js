@@ -1,4 +1,5 @@
 var a = "c";
-console.log(b);
+// conflick lee aaye
+console.log("AA gye conflict betaa")
 
 
